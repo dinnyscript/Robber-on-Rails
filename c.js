@@ -87,7 +87,7 @@ class Level {
         this.bullets = [];
         this.numCams = this.cameras.length;
 
-        //revive all daeth and todeath vlaues, including the lpayers's
+        //revive all death and todeath vlaues, including the player's
         for (let i = 0; i < this.lasers.length; i++) {
             this.lasers[i].dead = false;
             this.lasers[i].toDeath = 0;
